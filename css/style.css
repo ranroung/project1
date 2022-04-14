@@ -1,36 +1,64 @@
-/* 공통 */
+/* 1공통 */
 *{margin: 0; padding: 0;}
 ul,li{list-style: none;}
+
 .space{clear: both;}
 
-.wrap{width: 1920px; margin: 0 auto;}
+.wrap{width: 1200px; margin: 0 auto;}
 
 /* 헤드부분 */
 .header{padding: 20px 0;}
 .logo{width: 370px; height: 65px; float: left;}
 .menu{width: 350px; height: 20px; float: right; padding: 20px 0; color: #555a6d;}
-.menu li{width: 70px; float: right ; text-align: center;}
+.menu li{width: 70px; float: right ; text-align: center;font-size: 14px;}
 
 /* 메인이미지부분 */
-.mainimg{width: 1920px; height: 450px; background-image: url(../images/mainimg.jpg);}
-
+.mainimg{width: 1200px; height: 450px; background-image: url(../images/mainimg.jpg);}
+.mainimg img{width: 100%;}
 /* 콘텐츠부분 */
-.box1{width: 1920px; height:720px; background-image: url(../images/main2img.jpg);}
-.box2{width: 1920px; height: 523px; background-color: #547a1c;}
+.box1{width: 1200px; height:720px; background-image: url(../images/main2img.jpg);}
+.box2{width: 1200px; height: 523px; background-color: #547a1c;}
 .box2 div{width: 50%; margin: 0 auto; text-align: center; padding: 180px; line-height: 50px; color: #fff;}
-.box3{width: 1920px; height: 639px;}
+.box3{width: 1200px; height: 639px;}
 .box3_left{width: 50%; height: 639px; background-color: #e1cbf2; float: left;}
-.box3_left div{width: 50%; margin: 0 auto; text-align: center; padding: 180px; color: #fff;}
+.con_img{    width: 176px;
+    height: 176px;
+    padding: 20px 0; display: block;margin: 0 auto;}
+    .con_img img{width: 100%;}   
+.box3_left div{width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-size: 14px;}
 .box3_right{width: 50%; height: 639px; background-color: #dde3a7; float: right;}
-.box3_right div{width: 50%; margin: 0 auto; text-align: center; padding: 180px; color: #fff;}
-.box4{width: 1920px; height: 639px;}
+.box3_right div{width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-size: 14px;}
+.box4{width: 1200px; height: 639px;}
 .box4_left{width: 50%; height: 639px; background-color: #d3f0c3; float: left;}
-.box4_left div{width: 50%; margin: 0 auto; text-align: center; padding: 180px; color: #fff;}
+.box4_left div{width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-size: 14px;}
 .box4_right{width: 50%; height: 639px; background-color: #f4b7c1; float: right;}
-.box4_right div{width: 50%; margin: 0 auto; text-align: center; padding: 180px; color: #fff;}
+.box4_right div{width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+    font-size: 14px;}
 
 /* 푸터부분 */
-.footer{width: 1920px; height: 171px; background-color: #eceff4;}
+.footer{    width: 1200px;
+    height: 100px;
+    background-color: #eceff4;
+    padding: 20px 0;}
 .copyright{text-align: center; padding: 10px 0; color: #555a6d;}
 .sns{width: 150px; margin: 0 auto;}.sns li{width: 30px; height: 30px; background-color: grey; float: left;}
 .sns li{width: 30px; height: 30px; background-color: grey; float: left; text-align: center; margin: 0 10px; border-radius: 10px;}
