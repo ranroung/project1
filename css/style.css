@@ -16,7 +16,13 @@ ul,li{list-style: none;}
 .mainimg{width: 1200px; height: 450px; background-image: url(../images/mainimg.jpg);}
 .mainimg img{width: 100%;}
 /* 콘텐츠부분 */
-.box1{width: 1200px; height:720px; background-image: url(../images/main2img.jpg);}
+.box1{    width: 100%;
+    height: 0;
+    background-image: url(../images/main2img.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: calc(709/1918*100%);}
 .box2{width: 1200px; height: 523px; background-color: #547a1c;}
 .box2 div{width: 50%; margin: 0 auto; text-align: center; padding: 180px; line-height: 50px; color: #fff;}
 .box3{width: 1200px; height: 639px;}
